@@ -48,7 +48,11 @@ body {
   .radio-input {
     width: 20px;
     height: 20px;
+    display: inline-flex;
+    align-items: center;
+    vertical-align:middle;
 
+    
   }
 
   .input-div {
@@ -58,7 +62,14 @@ body {
     margin: auto;
   }
 
-  
+  #dropdown {
+   margin: 10px auto; 
+  }
+
+  .input-div label {
+    width: 25%;
+    display: flex; 
+  }
 
 
  
