@@ -1,0 +1,105 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #242423;
+    color: #E8EDDF;
+}
+
+img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  #img-caption {
+    margin-bottom: 70px;
+  }
+
+  #name {
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #F5CB5C;
+  }
+
+  #description {
+    margin-top: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .title {
+    margin: 50px auto;
+  }
+
+  #img-div {
+    margin: 30px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .bold-bio {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F5CB5C;
+  }
+
+  .bold-dates {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .info {
+    width: 700px;
+    margin: auto;    
+  }
+
+  #timeline {
+    width: 700px;
+    margin: auto;
+    color: #F5CB5C;
+    margin-bottom: 50px;
+  }
+
+  #tribute-info {
+    margin-bottom: 70px;
+  }
+
+  #time-title {
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+  }
+
+  .time-info {
+    margin-bottom: 30px;
+    margin-top: auto;
+    color: #E8EDDF;
+  }
+
+  .line-top {
+    width: 700px;
+    height: 2px;
+    background-color: #F5CB5C;
+  }
+
+  .line-bottom {
+    width: 700px;
+    height: 2px;
+    background-color: #F5CB5C;
+    margin-bottom: 50px;
+  }
+
+  .more {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+  }
+
+  #tribute-link {
+    color: #F5CB5C;
+  }
