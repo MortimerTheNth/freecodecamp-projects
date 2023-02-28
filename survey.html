@@ -3,19 +3,22 @@
   <head>
     <meat charset="utf-8">
     <link rel="stylesheet" href="./survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <title>Survey Form</title>
   </head>
   <body>
     <h1 id="title">Very Important Survey Form</h1>
-    <p id="description">Survey Form project</p>
+    <h3 id="description">Survey Form project</h3>
     <form id="survey-form">
       <label for="name" id="name-label">Your Name <input class="text-input" id="name" type="text" required placeholder="Bob"></label>
       <label for="email" id="email-label">Email <input class="text-input" id="email" type="email" required placeholder="bobmail@mail.com"></label>
       <label for="number" id="number-label">Number <input class="text-input" id="number" type="number" min="13" max="100" placeholder="37"></label>
       
       <div class="input-div">
-      <label><input class="radio-input" type="radio" value="yes" name="form">Duck</label>
-      <label><input class="radio-input" type="radio" value="no" name="form">Rabbit</label> 
+      <label><input class="radio-input" type="radio" value="yes" name="form"><p>Duck</p></label>
+      <label><input class="radio-input" type="radio" value="no" name="form"><p>Rabbit</p></label> 
       </div>
       <div class="input-div">
       <select class="text-input" id="dropdown">
@@ -24,8 +27,8 @@
       </select>
       </div>
       <div class="input-div">
-        <label><input class="checkbox-input radio-input" type="checkbox" value="green" name="color">Green</label>
-        <label><input class="checkbox-input radio-input" type="checkbox" value="blue" name="color">Blue</label>
+        <label><input class="checkbox-input radio-input" type="checkbox" value="green" name="color"><p>Green</p></label>
+        <label><input class="checkbox-input radio-input" type="checkbox" value="blue" name="color"><p>Blue</p></label>
     </div>
       <textarea id="textarea" placeholder="Comments"></textarea>
       <button id="submit" type="submit">Submit</button>

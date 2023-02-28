@@ -10,6 +10,7 @@ body {
     color: #4A4E69;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Lobster', cursive;
   }
 
   #description {
@@ -41,8 +42,10 @@ body {
     border: none;
     min-height: 25px;
     text-align: left;
-    padding-top: 5px;
     margin: 0 auto 10px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  
   }
 
   .radio-input {
@@ -64,12 +67,48 @@ body {
 
   #dropdown {
    margin: 10px auto; 
+   background-color: white;
+   height: 30px;
+   vertical-align: middle;
+   font-size: 20px;
   }
 
   .input-div label {
-    width: 25%;
+    width: 30%;
     display: flex; 
   }
+
+  p {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  textarea {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    height: 20vh;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #submit {
+    width: 40%;
+    display: block;
+    margin: 15px auto;
+    border: none;
+    background-color: #22223B;
+    color: #F2E9E4;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  
+  
 
 
  
